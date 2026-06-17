@@ -7,17 +7,7 @@
   - [1.2 Lab-Specific Resources](#12-lab-specific-resources)
   - [1.3 Protocol: Restriction Enzyme Cloning](#13-protocol-restriction-enzyme-cloning)
   - [1.4 Protocol: Golden Gate Assembly](#14-protocol-golden-gate-assembly)
-- [Section 2: Mammalian Cell Culture](#section-2-mammalian-cell-culture)
-  - [2.1 Background](#21-background)
-  - [2.2 Lab-Specific Resources](#22-lab-specific-resources)
-  - [2.3 Protocol: Routine Cell Maintenance](#23-protocol-routine-cell-maintenance)
-  - [2.4 Protocol: Transient Transfection](#24-protocol-transient-transfection)
-- [Section 3: Live-Cell Imaging of Biosensors](#section-3-live-cell-imaging-of-biosensors)
-  - [3.1 Background](#31-background)
-  - [3.2 Lab-Specific Resources](#32-lab-specific-resources)
-  - [3.3 Protocol: Sample Preparation for Live Imaging](#33-protocol-sample-preparation-for-live-imaging)
-  - [3.4 Protocol: Time-Lapse Acquisition](#34-protocol-time-lapse-acquisition)
-  - [3.5 Protocol: Image Analysis](#35-protocol-image-analysis)
+
 ---
 
 ## Section 1: Plasmid Cloning
@@ -79,17 +69,15 @@ Although it requires some very precise design, one can design a vector that has 
 
 #### [1.3.1 PCR Amplification of Insert](./protocols/pcr.md)
 
-#### 1.3.2 [Restriction Digest](./protocols/restriction_digest.md)
-
-> 📝 *[Single and double digest setup, buffer choice, incubation conditions, heat inactivation, and gel verification.]*
+#### [1.3.2 Restriction Digest](./protocols/restriction_digest.md)
 
 #### 1.3.3 Gel Extraction & Cleanup
 
-> 📝 *[Agarose gel preparation, band excision, gel extraction kit procedure, and elution/quantification.]*
+PCR and restriction digest cleanup: Zymo Research's [DNA Clean & Concentrate Kit](https://www.zymoresearch.com/products/dna-clean-concentrator-5)
 
-#### 1.3.4 Ligation Reaction
+Gel purification: NEB's [Monarch DNA Gel Extraction Kit](https://www.neb.com/en-us/products/t1020-monarch-dna-gel-extraction-kit)
 
-> 📝 *[Molar ratio calculation, reaction setup (volumes, temperature, time), ligation controls, and transformation.]*
+#### [1.3.4 Ligation Reaction](./protocols/t4_ligase.md)
 
 #### [1.3.5 Bacterial Transformation](./protocols/chemical_transformation_of_e_coli.md)
 
@@ -99,194 +87,6 @@ Although it requires some very precise design, one can design a vector that has 
 
 #### 1.4.1 [One-Pot Assembly Reaction](protocols/golden_gate.md)
 
-#### 1.4.2 Transformation & Verification
+#### [1.4.2 Bacterial Transformation](./protocols/chemical_transformation_of_e_coli.md)
 
-#### [1.4.3 Bacterial Transformation](./protocols/chemical_transformation_of_e_coli.md)
 
-## Section 2: Mammalian Cell Culture
-
-Mammalian cell culture is the foundation of most experiments in the lab. Maintaining healthy, mycoplasma-free cells is a critical skill and a shared responsibility. This section covers the biology of the cell lines you will use, aseptic technique, and routine maintenance procedures.
-
-### 2.1 Background
-
-#### 2.1.1 The HeLa Cell Line
-
-> 📝 *[Provide a brief history of HeLa cells, their biological characteristics (immortal, aneuploid, HeLa-specific contamination risk), doubling time, and why they are a workhorse for cell biology experiments.]*
-
-#### 2.1.2 Other Cell Lines Used in the Lab
-
-> 📝 *[List additional cell lines with their origin, key properties, and relevant experimental uses.]*
-
-#### 2.1.3 Aseptic Technique
-
-> 📝 *[Explain the principles behind sterile technique: biosafety cabinet use, UV sterilization, spray-down procedures, working clean, and common contamination sources (bacteria, fungi, mycoplasma).]*
-
-#### 2.1.4 Media, Supplements, and Reagents
-
-> 📝 *[Describe basal media (DMEM, RPMI, etc.), serum (FBS — lot testing, heat inactivation), L-glutamine/GlutaMAX, antibiotics policy in the lab, and the CO2/bicarbonate buffering system.]*
-
----
-
-### 2.2 Lab-Specific Resources
-
-| Resource | Details |
-|---|---|
-| Incubator location and CO2/temperature settings | `[PLACEHOLDER]` |
-| Biosafety cabinet number and certification date | `[PLACEHOLDER]` |
-| Cell line registry / passage number tracking system | `[PLACEHOLDER]` |
-| Mycoplasma testing schedule and method | `[PLACEHOLDER]` |
-| Liquid nitrogen tank location and cell stock inventory | `[PLACEHOLDER]` |
-| Waste disposal procedures for biological material | `[PLACEHOLDER]` |
-
----
-
-### 2.3 Protocol: Routine Cell Maintenance
-
-#### 2.3.1 Daily Observation
-
-> 📝 *[Describe how to assess confluence and cell health under the microscope, what healthy vs. stressed cells look like, and when to passage.]*
-
-#### 2.3.2 Passaging Cells
-
-> 📝 *[Step-by-step: aspirate media, PBS wash, trypsin addition (volume, incubation time), neutralization, counting (hemocytometer or automated counter), seeding density recommendations for HeLa and other lines, and flask labeling convention.]*
-
-#### 2.3.3 Freezing Cells for Long-Term Storage
-
-> 📝 *[Freezing medium recipe (FBS + DMSO), controlled-rate freezing (Mr. Frosty procedure), transfer to liquid nitrogen, and cryovial labeling standards.]*
-
-#### 2.3.4 Thawing Cells
-
-> 📝 *[Rapid thaw, dilution to remove DMSO, centrifugation, resuspension, and first-passage monitoring.]*
-
----
-
-### 2.4 Protocol: Transient Transfection
-
-#### 2.4.1 Reagent Choice
-
-> 📝 *[Overview of lipid-based transfection (Lipofectamine, FuGENE) vs. polymer-based (PEI) vs. electroporation; which methods are used in the lab.]*
-
-#### 2.4.2 Transfection Procedure
-
-> 📝 *[Cell seeding density the day before, DNA:reagent ratio, complex formation steps, media change timing, and expected transfection efficiency for HeLa.]*
-
-#### 2.4.3 Verification of Expression
-
-> 📝 *[How to check for successful expression: fluorescence microscopy, western blot, or flow cytometry, depending on your construct.]*
-
----
-
-## Section 3: Live-Cell Imaging of Biosensors
-
-Live-cell imaging allows you to observe dynamic biological processes in real time. You will use genetically encoded biosensors — fluorescent protein-based reporters that change their signal in response to specific molecular events — to track cellular signaling over time.
-
-### 3.1 Background
-
-#### 3.1.1 Fluorescent Proteins & Genetically Encoded Biosensors
-
-> 📝 *[Describe GFP and its derivatives (color variants, photostability, maturation time), FRET-based vs. intensity-based biosensors, and what molecular events the lab's biosensors are designed to report (e.g., kinase activity, second messengers, protein–protein interaction).]*
-
-#### 3.1.2 Principles of Fluorescence Microscopy
-
-> 📝 *[Explain excitation/emission spectra, fluorescence filters, widefield vs. confocal vs. spinning disk confocal, objective lens choices (magnification, NA, working distance), and immersion media.]*
-
-#### 3.1.3 Phototoxicity and Photobleaching
-
-> 📝 *[Why minimizing light exposure matters for live cells: phototoxicity mechanisms, photobleaching kinetics, and practical strategies (reduced illumination, fast cameras, optimized frame rates).]*
-
-#### 3.1.4 Environmental Control During Imaging
-
-> 📝 *[Importance of maintaining 37°C, 5% CO2, and humidity during time-lapse experiments; stage-top incubator vs. enclosed chamber systems available in the lab.]*
-
----
-
-### 3.2 Lab-Specific Resources
-
-| Resource | Details |
-|---|---|
-| Microscope(s) for live imaging and booking procedure | `[PLACEHOLDER]` |
-| Acquisition software and version | `[PLACEHOLDER]` |
-| Biosensor constructs available and spectral properties | `[PLACEHOLDER]` |
-| Imaging dishes/plates used (glass-bottom, polymer, etc.) | `[PLACEHOLDER]` |
-| CO2-independent media or buffering approach during imaging | `[PLACEHOLDER]` |
-| Image analysis software | `[PLACEHOLDER]` |
-
----
-
-### 3.3 Protocol: Sample Preparation for Live Imaging
-
-#### 3.3.1 Cell Seeding onto Imaging Dishes
-
-> 📝 *[Appropriate cell density, coating substrates (fibronectin, poly-L-lysine, collagen) if used, and lead time before imaging (hours to overnight).]*
-
-#### 3.3.2 Transfection for Biosensor Expression
-
-> 📝 *[Reference Section 2.4, with specific notes on DNA amount for biosensor constructs and time post-transfection optimal for imaging (to ensure expression without overexpression artifacts).]*
-
-#### 3.3.3 Media Preparation for Imaging
-
-> 📝 *[HEPES-buffered media or CO2-independent formulation, phenol-red-free considerations, drug/stimulus stock preparation and working concentrations.]*
-
----
-
-### 3.4 Protocol: Time-Lapse Acquisition
-
-#### 3.4.1 Microscope Setup
-
-> 📝 *[Startup sequence, laser/lamp warmup, stage incubator equilibration time, objective selection, and Köhler illumination check.]*
-
-#### 3.4.2 Acquisition Settings
-
-> 📝 *[Channel configuration (laser lines/filters for your biosensor), exposure time, frame interval, total duration, Z-stack vs. single plane, and multi-position acquisition if used.]*
-
-#### 3.4.3 Focusing and Finding Cells
-
-> 📝 *[How to locate transfected cells by brief epifluorescence, setting up autofocus (hardware or software), and selecting representative fields.]*
-
-#### 3.4.4 Applying Stimuli During Imaging
-
-> 📝 *[Drug addition protocol during live imaging (perfusion vs. manual addition), timing relative to acquisition start, and controls (vehicle-only, unstimulated).]*
-
----
-
-### 3.5 Protocol: Image Analysis
-
-#### 3.5.1 Data Organization and File Formats
-
-> 📝 *[Lab naming convention for image files, where to save data, file format (proprietary vs. OME-TIFF), and backup procedure.]*
-
-#### 3.5.2 Basic Analysis in Fiji/ImageJ
-
-> 📝 *[Opening files, inspecting LUTs and pixel intensities, drawing ROIs, measuring mean fluorescence intensity over time, background subtraction, and generating time-series plots.]*
-
-#### 3.5.3 Ratiometric Analysis (if applicable)
-
-> 📝 *[For FRET-based or dual-channel biosensors: how to compute ratio images, normalization approaches, and interpreting ratio changes as biological signal.]*
-
-#### 3.5.4 Downstream Statistical Analysis
-
-> 📝 *[How to export data to Excel or Python/R, typical statistical tests used in the lab for time-series comparisons, and plot conventions for figures.]*
-
----
-
-### 3.6 Troubleshooting
-
-| Symptom | Possible Causes & Actions |
-|---|---|
-| Cells dying during imaging | Reduce illumination intensity, shorten exposure, check temperature/CO2, try anti-phototoxicity additives (Trolox, OxyFluor) |
-| Rapid photobleaching | Reduce laser power, consider a more photostable fluorescent protein variant |
-| Biosensor shows no response | Verify expression level, confirm stimulus is active, check filter set and channel assignment |
-| Focal drift over time | Use hardware autofocus or apply post-acquisition drift correction in Fiji |
-| High background / low SNR | Adjust exposure, check for media autofluorescence, optimize cell density |
-
-> 📝 *[Add microscope-specific or biosensor-specific troubleshooting notes.]*
-
----
-
-### 3.7 Key Terms & Further Reading
-
-**Key terms:** biosensor, FRET, genetically encoded indicator, fluorescent protein, photobleaching, phototoxicity, widefield, confocal, spinning disk, NA, working distance, point spread function, ROI, ratiometric imaging, time-lapse, z-stack, OME-TIFF
-
-**Further reading:**
-- `[PLACEHOLDER — suggest a live-cell imaging review]`
-- `[PLACEHOLDER — key paper for the biosensor used in the project]`
