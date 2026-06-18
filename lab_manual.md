@@ -53,7 +53,7 @@ As you may have recognized, when using the correct restriction enzymes on both y
 The most common form of DNA ligase used in the lab is T4 DNA ligase, an enzyme that catalyzes the formation of a **phosphodiester** bond between a 5'-phosphate and an adjacent 3'-OH group. T4 ligase uses ATP to catalyze the reaction to join two DNA molecules with homology.
 
 
-![T4 ligase](media/t4_ligase.png)
+![Ligation with T4 DNA ligase](media/t4_ligase.png)
 
 #### 1.1.4 Golden Gate Assembly
 
@@ -62,6 +62,28 @@ Traditional **restriction/ligation** cloning using type II enzymes and a T4 liga
 Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recongition sequence, but instead cut asymmetrically. This leaves an sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for **annealing** and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
 
 Although it requires some very precise design, one can design a vector that has a self-excising type IIS restriction site that matches directly with the overhangs left from the type IIS site on the fragments you want to insert. Since the overhangs can be any sequence of `NNNN`, one can theoretically ligate up to 128 fragments simultaneously in one reaction. In reality, though, Golden Gate is rarely used to ligate more than 7 fragments due to mismatches during annealing.
+
+![Golden Gate cloning](media/golden_gate.png)
+
+
+#### 1.1.5 Polymerase Chain Reaction (PCR)
+
+Polymerase chain reaction (PCR) is an indispensible technique in the toolbelt of a biologist. At a fundamental level, PCR copies a DNA sequence and requires only a handful of reagents:
+
+- Template DNA
+- Thermostable DNA polymerase
+- Single-stranded DNA primers
+- Deoxynucleotide triphosphates (dNTPs)
+
+A typical PCR is composed of four main steps, each taking place at a different temperature:
+
+1. Melting (95ºC): the template DNA to be copied is heated up until the hydrogen bonds holding the base pairs together are broken. This generates two complementary single-stranded DNA molecules.
+2. Annealing (50-70ºC): the temperature of the reaction is lowered, allowing the single-stranded complementary primers to base pair with their complementary sequences on the DNA molecule. This "priming" allows the DNA polymerase to recognize the double-stranded DNA and associate with the duplex.
+3. Extension (72ºC): The polymerase incorporates the dNTPs into the newly-formed molecule, generating the complementary strand of DNA.
+
+This cycle is repeated 20-40 times, each time doubling the number of individual DNA molecules in the reaction. As such, this leads to an exponential growth in the number of DNA copies in the reaction.
+
+![Polymerase chain reaction](media/pcr.png)
 
 ---
 
