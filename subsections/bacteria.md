@@ -1,6 +1,5 @@
 # Bacteria
 
-
 Bacteria are the prokaryotic workhorses of the wet lab. The most common species of bacteria used for routine techniques such as plasmid cloning and protein expression is *Escherichia coli* (*E. coli*), with countless others harnessed for their unique chemistry and thus their ability to carry out biocatalysis. For the sake of this practical guide, we will focus only on *E. coli*.
 
 ## *E. coli*
@@ -17,7 +16,7 @@ Bacteria are all around us: on our skin, on the lab benches, and inside plastic 
 
 ### Sterilization of tools
 
-We ensure that all implements like glassware, plastic, and liquid and solid media through the process of **sterilization**. The most common way of sterilization in a molecular biology lab is the **autoclave**, which exposes contents loaded into the chamber to high heat and pressure (121 ºC and 1 atm above ambient) for 15-60 minutes. This is enough to destroy almost all (*almost*) bacteria, parasites, and viruses that are living on a sample. Autoclaves are routinely used to sterilize media like LB, glassware like culture flasks, and plastic like micropipette tips.
+We prepare all implements like glassware, plastic, and liquid and solid media for laboratory use through the process of **sterilization**. The most common way of sterilization in a molecular biology lab is the **autoclave**, which exposes contents loaded into the chamber to high heat and pressure (121 ºC and 1 atm above ambient) for 15-60 minutes. This is enough to destroy almost all (*almost*) bacteria, parasites, and viruses that are living on a sample. Autoclaves are routinely used to sterilize media like LB, glassware like culture flasks, and plastic like micropipette tips.
 
 Occasionally, media too delicate to be sterilized using the high temperature and pressure of an autoclave is sterilized using filtration. Most bacteria are larger than 200 nm, so filters with a pore size of smaller than 200 nm are used to remove contaminants from the media. This sterilizes media without subjecting it to high temperatures and pressures.
 
