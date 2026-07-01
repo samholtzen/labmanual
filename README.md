@@ -10,7 +10,7 @@ Table of Contents:
 
 - [Molecular Cloning](/subsections/cloning.md)
 - [Bacterial Cell Culture](/subsections/bacteria.md)
-- [Mammalian Cell Culture](/subsections/under_construction.md) ⚠️UNDER CONSTRUCTION⚠️
+- [Mammalian Cell Culture](/subsections/mammalian_cells.md)
 - [Common techniques](/subsections/under_construction.md)  ⚠️UNDER CONSTRUCTION⚠️
 
 
