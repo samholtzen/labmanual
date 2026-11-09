@@ -77,7 +77,7 @@ The diversity of *E. coli* strains, like the diversity of bacteria writ large, i
 
 ### Cloning
 
-Since DNA encodes the instructions of life, manipulating and altering DNA sequences is the first step to engineering biology. To do this, we undertake [molecular cloning](/subsections/cloning.md), a process by which we shuffle, cut, paste, edit, and delete sequences in a molecule of DNA. *In vitro*, we can edit DNA sequences very efficiently, but the yields of fully-formed plasmid DNA are inadequate for most *in vivo* applications. Instead, we use bacteria to synthesize and propagate plasmid DNA to improve our yield.
+Since DNA encodes the instructions of life, manipulating and altering DNA sequences is the first step to engineering biology. To do this, we undertake [molecular cloning](/subsections/cloning/index.md), a process by which we shuffle, cut, paste, edit, and delete sequences in a molecule of DNA. *In vitro*, we can edit DNA sequences very efficiently, but the yields of fully-formed plasmid DNA are inadequate for most *in vivo* applications. Instead, we use bacteria to synthesize and propagate plasmid DNA to improve our yield.
 
 An ideal host bacteria has the following attributes: (i) it is easily transformed with a plasmid of interest, (ii) it grows quickly at close to ambient temperatures, (iii) it is not pathogenic, and (iv) its growth media is cheap and readily accessible. Our friend *E. coli* meets all of these criteria. Extensive engineering has gone into developing strains of the bacteria that are more amenable to hosting and replicating plasmids than their wild-type counterparts.
 

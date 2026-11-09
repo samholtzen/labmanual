@@ -12,6 +12,7 @@ theme:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - search.highlight
     - content.code.copy
@@ -32,10 +33,14 @@ theme:
 nav:
   - Home: index.md
   - Chapters:
-      - Molecular Cloning: subsections/cloning.md
-      - Bacterial Cell Culture: subsections/bacteria.md
-      - Mammalian Cell Culture: subsections/mammalian_cells.md
-      - Common techniques: subsections/under_construction.md
+      - Molecular Cloning:
+          - subsections/cloning/index.md
+      - Bacterial Cell Culture:
+          - subsections/bacteria/index.md
+      - Mammalian Cell Culture:
+          - subsections/mammalian-cells/index.md
+      - Foundations:
+          - subsections/foundations/index.md
   - Protocols:
       - PCR: protocols/pcr.md
       - Restriction Digest: protocols/restriction_digest.md

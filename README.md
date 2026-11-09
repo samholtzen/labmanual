@@ -8,10 +8,10 @@ The goal of this GitHub repo is to have a living document that is easily editabl
 
 Table of Contents:
 
-- [Molecular Cloning](/subsections/cloning.md)
-- [Bacterial Cell Culture](/subsections/bacteria.md)
-- [Mammalian Cell Culture](/subsections/mammalian_cells.md)
-- [Common techniques](/subsections/under_construction.md)  ⚠️UNDER CONSTRUCTION⚠️
+- [Molecular Cloning](/subsections/cloning/index.md)
+- [Bacterial Cell Culture](/subsections/bacteria/index.md)
+- [Mammalian Cell Culture](/subsections/mammalian-cells/index.md)
+- [Foundations](/subsections/foundations/index.md)
 
 
 I would love to have feedback for what you'd want to see more of. If you have an idea for a specific topic, open an [issue](https://github.com/samholtzen/labmanual/issues) and we can collaborate on the best way to discuss a topic.

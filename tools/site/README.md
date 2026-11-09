@@ -36,13 +36,37 @@ Only `README.md` (as the home page), `subsections/`, `protocols/`, and `media/`.
 
 The build works on a copy in `_build/docs/` (git-ignored). In that copy it rewrites root-relative links such as `/media/x.png` and `/protocols/pcr.md` so they work at any base path. The build stops with an error if a link points at a page or image that does not exist.
 
+## How the content is laid out
+
+- **A chapter is a directory** under `subsections/` with an `index.md` landing page. `subsections/cloning/index.md` is published at `/subsections/cloning/`. Use lowercase names with hyphens (`mammalian-cells`).
+- **Protocols stay flat.** One file per protocol, directly in `protocols/`, so each keeps a short, stable address like `/protocols/pcr/`.
+- **The glossary is one page**, `subsections/glossary.md`.
+- **Cross-cutting techniques** that several chapters rely on (gels, DNA quantification, and so on) go in the `foundations` chapter.
+- **Reading order comes from the `nav:` list** in `tools/site/mkdocs.yml`, not from filenames or heading numbers. Do not number headings by hand.
+
 ## Add a page
 
-1. Add the Markdown file under `subsections/` or `protocols/`.
-2. Add one line for it in the `nav:` list in `tools/site/mkdocs.yml`.
+To add a section to an existing chapter:
+
+1. Add the Markdown file inside the chapter's directory, e.g. `subsections/cloning/gibson.md`.
+2. Add one line for it in `tools/site/mkdocs.yml`, under that chapter and after its `index.md` line.
+3. Link to it from the chapter's `index.md`.
+4. Rebuild.
+
+To add a new chapter:
+
+1. Create `subsections/<chapter>/index.md`.
+2. In the `nav:` list, add a group for it under `Chapters`, with `index.md` as the first entry (this makes the chapter name itself a link).
+3. Add one entry for it to the table of contents in `README.md`.
+4. Rebuild.
+
+To add a protocol:
+
+1. Add the Markdown file to `protocols/`.
+2. Add one line for it under `Protocols` in the `nav:` list.
 3. Rebuild.
 
-The page's address comes from its filename, e.g. `protocols/pcr.md` becomes `/protocols/pcr/`.
+A page's address comes from its path, e.g. `protocols/pcr.md` becomes `/protocols/pcr/`, and `subsections/cloning/index.md` becomes `/subsections/cloning/`.
 
 ## What is in this folder
 
