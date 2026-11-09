@@ -4,12 +4,12 @@ Adapted from NEB’s “High Efficiency Transformation Protocol” and “5 Minu
 
 ### Components
 
-- NEB 5-alpha: -80 freezer in lab
-- Heat block: bacterial bench
-- Ice: Autoclave room
-- Ice buckets: just use any styrofoam bucket
-- SOC: cabinet with PBS
-- Plates: back of the cold room
+- NEB 5-alpha
+- Heat block
+- Ice
+- Ice bucket
+- SOC
+- Plates
 
 ### Protocol:
 
