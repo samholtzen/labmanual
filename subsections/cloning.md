@@ -6,49 +6,49 @@ Cloning is the process of assembling a DNA construct — typically a gene of int
 
 ### 1.1.1 DNA, Plasmids, and Vectors
 
-A plasmid is a circular piece of DNA, with no start or end. Circular DNA is very stable, since it has no free 5’ or 3’-hydroxyl ends for **nucleases** to target. Plasmids were originally derived from bacteria, which harbor various kind of plasmids encoding genes for reproduction, antibiotic resistance, and virulence. Humans can take advantage of plasmids as a vector for genetic alteration or introduction of a perturbation to an organism. Plasmids can vary widely, but those used for routine gene expression contain the following: 
+A plasmid is a circular piece of DNA, with no start or end. Circular DNA is very stable, since it has no free 5’ or 3’-hydroxyl ends for [**nucleases**](/subsections/glossary.md#nuclease) to target. Plasmids were originally derived from bacteria, which harbor various kinds of plasmids encoding genes for reproduction, antibiotic resistance, and virulence. Humans can take advantage of plasmids as a vector for genetic alteration or introduction of a perturbation to an organism. Plasmids can vary widely, but those used for routine gene expression contain the following: 
 
-- **Origin of replication**: the region of the plasmid that allows it to be propagated inside of a bacterium.
+- [**Origin of replication**](/subsections/glossary.md#origin-of-replication): the region of the plasmid that allows it to be propagated inside of a bacterium.
 
-- **Antibiotic resistance**: a selection marker. Cells carrying this gene grow in the presence of an antibiotic, thus showing which cells are carrying the plasmid we want. Cells that are untransformed (not carrying the plasmid) die.
+- [**Antibiotic resistance**](/subsections/glossary.md#antibiotic-resistance): a selection marker. Cells carrying this gene grow in the presence of an antibiotic, thus showing which cells are carrying the plasmid we want. Cells that are untransformed (not carrying the plasmid) die.
 
-- **Multiple cloning site (MCS)**: The site where (in traditional restriction/ligation cloning) the gene of interest can be inserted. The MCS is usually sandwiched between the promoter and the terminator.
+- [**Multiple cloning site (MCS)**](/subsections/glossary.md#multiple-cloning-site-mcs): The site where (in traditional restriction/ligation cloning) the gene of interest can be inserted. The MCS is usually sandwiched between the promoter and the terminator.
 
-- **Promoter**: The region of the plasmid that recruits the transcription machinery in the target organism. Notably, this gene is not expressed in the bacterium.
+- [**Promoter**](/subsections/glossary.md#promoter): The region of the plasmid that recruits the transcription machinery in the target organism. Notably, this gene is not expressed in the bacterium.
 
-- **Terminator**: The region of the plasmid that signals the transcription machinery to stop synthesizing mRNA. Usually coupled with a **poly-adenylation** (polyA) signal.
+- [**Terminator**](/subsections/glossary.md#terminator): The region of the plasmid that signals the transcription machinery to stop synthesizing mRNA. Usually coupled with a [**poly-adenylation**](/subsections/glossary.md#poly-adenylation) (polyA) signal.
 
 Because a plasmid is circular and double stranded and thus a palindrome, the features encoded in this DNA have a pre-defined direction based on the biochemistry of transcription and replication. We read a sequence from 5' to 3', meaning the first base of the sequence is that which has a free 5'-OH group, and the end base has a free 3'-OH. An example of a plasmid is below, with the features marked in bold, the direction we read the feature as an arrow, and some examples of the sequences. Origins of replication and MCS are not usually annotated as having directionality.
 
 #### Figure 1 | A prototypical mammalian expression plasmid
 
-A plasmid is a circular piece of DNA that contains genetic regions encoded in its nucleotide sequence. These are often called "feature" or "regions". A bare-bones mammalian expression plasmid usually has a **promoter**, a **multiple cloning site**, a **terminator**, an **origin of replication**, and an **antibiotic resistance gene**. Since the MCS is not occupied by a gene of interest, we call this a **vector**, a **backbone**, or a **parent plasmid**.
+A plasmid is a circular piece of DNA that contains genetic regions encoded in its nucleotide sequence. These are often called "feature" or "regions". A bare-bones mammalian expression plasmid usually has a [**promoter**](/subsections/glossary.md#promoter), a [**multiple cloning site**](/subsections/glossary.md#multiple-cloning-site-mcs), a [**terminator**](/subsections/glossary.md#terminator), an [**origin of replication**](/subsections/glossary.md#origin-of-replication), and an [**antibiotic resistance gene**](/subsections/glossary.md#antibiotic-resistance). Since the MCS is not occupied by a gene of interest, we call this a [**vector**](/subsections/glossary.md#vector), a [**backbone**](/subsections/glossary.md#backbone), or a [**parent plasmid**](/subsections/glossary.md#parent-plasmid).
 
 ![A prototypical plasmid](/media/plasmid.png)
 
 ### 1.1.2 Restriction Enzymes
 
-**Nucleases** are a class of enzyme that acts to break down nucleic acids (DNA, RNA, etc). DNases (DNA nucleases), come in two flavors: exonuclease and endonucleases. Exonucleases, like their name suggests, act to digest DNA from its terminal 5'-OH or 3'-OH ends and are highly efficient at degrading DNA. In contrast, endonucleases cut DNA from inside and can be **nonspecific** or cut only at a recognized sequence (restriction endonucleases).
+[**Nucleases**](/subsections/glossary.md#nuclease) are a class of enzyme that acts to break down nucleic acids (DNA, RNA, etc). DNases (DNA nucleases), come in two flavors: exonuclease and endonucleases. Exonucleases, like their name suggests, act to digest DNA from its terminal 5'-OH or 3'-OH ends and are highly efficient at degrading DNA. In contrast, endonucleases cut DNA from inside and can be [**nonspecific**](/subsections/glossary.md#nonspecific) or cut only at a recognized sequence (restriction endonucleases).
 
 ![nucleases](/media/restriction_enzymes.png)
 
 Type II and type IIS restriction enzymes are commonly used in molecular cloning due to their ability to recognize and cut at specific sequences of DNA. Type II enzymes recognize palindromic sequences of DNA and cut, leaving either sticky (ends with single-stranded overhangs) or blunt (coherent base paired) ends. Type IIS enzymes recognize a specific sequence, but do not cleave it. Instead, they cut specific sequences downstream, leaving sticky ends that can be any sequence.
 
-Like everything in biology, restriction enzymes are not perfect. Oftentimes, there is a **consensus** sequence where enzymes cut, but this sequence is not always strictly obeyed. Therefore, enzymes exhibit **star activity**, or off-target cutting. An example of this is the restriction enzyme BamHI, where the most common cutting sequence is `G|GATCC` but depending on salt concentration and pH, it can cut at other sites.
+Like everything in biology, restriction enzymes are not perfect. Oftentimes, there is a [**consensus**](/subsections/glossary.md#consensus) sequence where enzymes cut, but this sequence is not always strictly obeyed. Therefore, enzymes exhibit [**star activity**](/subsections/glossary.md#star-activity), or off-target cutting. An example of this is the restriction enzyme BamHI, where the most common cutting sequence is `G|GATCC` but depending on salt concentration and pH, it can cut at other sites.
 
 ### 1.1.3 DNA Ligation
 
 As you may have recognized, when using the correct restriction enzymes on both your backbone and your insert, you will have palindromic sequences that can base pair. This is the main reason we use Type II restriction enzymes: to guide assembly of two or more pieces of DNA based on their end homology. Restriction digests can give us these pieces of DNA, but we use DNA ligation to stitch them together.
 
-The most common form of DNA ligase used in the lab is T4 DNA ligase, an enzyme that catalyzes the formation of a **phosphodiester** bond between a 5'-phosphate and an adjacent 3'-OH group. T4 ligase uses ATP to catalyze the reaction to join two DNA molecules with homology.
+The most common form of DNA ligase used in the lab is T4 DNA ligase, an enzyme that catalyzes the formation of a [**phosphodiester**](/subsections/glossary.md#phosphodiester) bond between a 5'-phosphate and an adjacent 3'-OH group. T4 ligase uses ATP to catalyze the reaction to join two DNA molecules with homology.
 
 ![Ligation with T4 DNA ligase](/media/t4_ligase.png)
 
 ### 1.1.4 Golden Gate Assembly
 
-Traditional **restriction/ligation** cloning using type II enzymes and a T4 ligase is useful for joining one or two inserts into vector. This requires *multiple* restriction enzymes, each with a different recognition sequence. Since the pool of palindromic sequences between 5 and 6 nucleotides in length is limited, increasing the number of inserts becomes very difficult. This is why we turn to type IIS restriction enzymes for multi-insert cloning.
+Traditional [**restriction/ligation**](/subsections/glossary.md#restrictionligation) cloning using type II enzymes and a T4 ligase is useful for joining one or two inserts into vector. This requires *multiple* restriction enzymes, each with a different recognition sequence. Since the pool of palindromic sequences between 5 and 6 nucleotides in length is limited, increasing the number of inserts becomes very difficult. This is why we turn to type IIS restriction enzymes for multi-insert cloning.
 
-Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves an sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for **annealing** and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
+Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves a sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for [**annealing**](/subsections/glossary.md#annealing) and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
 
 Although it requires some very precise design, one can design a vector that has a self-excising type IIS restriction site that matches directly with the overhangs left from the type IIS site on the fragments you want to insert. Since the overhangs can be any sequence of `NNNN`, one can theoretically ligate up to 128 fragments simultaneously in one reaction. In reality, though, Golden Gate is rarely used to ligate more than 7 fragments due to mismatches during annealing.
 
@@ -60,7 +60,7 @@ Polymerase chain reaction (PCR) is an indispensable technique in the tool belt o
 
 - Template DNA: a DNA molecule containing the sequence to be copied
 - Thermostable DNA polymerase: a variant of DNA polymerase from a thermophilic bacterium (originally *Thermus aquaticus*, but variants from other species are also used).
-- Single-stranded DNA primers: short **oligonucleotides** that are complementary to strands of the template DNA, often referred to as *forward* and *reverse* primers, indicating the direction in which they prime the polymerase to synthesize
+- Single-stranded DNA primers: short [**oligonucleotides**](/subsections/glossary.md#oligonucleotide) that are complementary to strands of the template DNA, often referred to as *forward* and *reverse* primers, indicating the direction in which they prime the polymerase to synthesize
 - Deoxynucleotide triphosphates (dNTPs): The building blocks of DNA. They are the substrate for DNA polymerase and will be chained together to form the complementary strand of DNA.
 
 A typical PCR is composed of three main steps, each taking place at a different temperature:
@@ -90,9 +90,9 @@ PCR and restriction digest cleanup: e.g. Zymo Research's [DNA Clean & Concentrat
 
 Gel purification: e.g. NEB's [Monarch DNA Gel Extraction Kit](https://www.neb.com/en-us/products/t1020-monarch-dna-gel-extraction-kit)
 
-### [1.3.4 Ligation Reaction](/protocols/t4_ligase.md)
+### [1.2.4 Ligation Reaction](/protocols/t4_ligase.md)
 
-### [1.3.5 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
+### [1.2.5 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
 
 ---
 

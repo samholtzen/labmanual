@@ -25,7 +25,7 @@
 ### Preparation Steps
 
 1. Thaw all reagents and vortex briefly to mix.
-2. Prepare a **master mix** containing the PCR Mix and both amplification primers.
+2. Prepare a [**master mix**](/subsections/glossary.md#master-mix) containing the PCR Mix and both amplification primers.
 3. Aliquot master mix into individual PCR tubes.
 4. Add template DNA to each tube.
 5. Cap tubes and briefly centrifuge (1,000 × g, 5 seconds) to collect contents.
@@ -41,7 +41,7 @@
 | Final extension | 72 °C | 5–10 min | 1 |
 | Hold | 4 °C | ∞ | — |
 
-*Since Q5 has a higher salt concentration and a higher binding temperature than *Taq* polymerase, use an online calculator to determine the melting temperature of your primers and adjust accordintly. [This one](https://tmcalculator.neb.com/#!/main) on NEB's website is my favorite.
+*Since Q5 has a higher salt concentration and a higher binding temperature than *Taq* polymerase, use an online calculator to determine the melting temperature of your primers and adjust accordingly. [This one](https://tmcalculator.neb.com/#!/main) on NEB's website is my favorite.
 
 ### Verification
 

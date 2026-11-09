@@ -2,7 +2,7 @@
 
 Isolation and maintenance of mammalian cells *ex vivo* (in one form or another) has been around since the 19th century, but techniques that were used back then bear little resemblance to those we use today. Like bacterial cells, culturing mammalian cells requires temperature control, nutrients, and a growth substrate. Mammalian cells, though, require a finer touch and constant monitoring to ensure their survival.
 
-Mammalian cells in culture are divided into two broad categories: primary and immortal. Primary cells are those that are harvested from an organism and either are **terminally differentiated** (lack the ability to divide) or have a limited number of cell divisions before **senescence**. Juxtapose this with immortalized cell lines, which have the ability to divide (almost) infinitely, given the proper nutrients and conditions.
+Mammalian cells in culture are divided into two broad categories: primary and immortal. Primary cells are those that are harvested from an organism and either are [**terminally differentiated**](/subsections/glossary.md#terminally-differentiated) (lack the ability to divide) or have a limited number of cell divisions before [**senescence**](/subsections/glossary.md#senescence). Juxtapose this with immortalized cell lines, which have the ability to divide (almost) infinitely, given the proper nutrients and conditions.
 
 ## Henrietta Lacks
 
@@ -10,7 +10,7 @@ One of the oldest and most commonly used cell lines used today is the HeLa cell 
 
 In the following 70 years, various scientific and pharmaceutical companies profited from Lacks's cells (now called HeLa cells), licensing and selling wild-type and engineered variants as protected intellectual property. It wasn't until 2021 that Lacks's estate began to sue them for unjust enrichment. The estate has settled with Novartis and Thermo Fisher and still has active suits against others. Lacks's case offers a chilling example of the intersection between medical racism and scientific progress in the mid-20th century that continues today. This is an [article](https://pmc.ncbi.nlm.nih.gov/articles/PMC3516052/) reviewing the book [*The Immortal Life of Henrietta Lacks*](https://en.wikipedia.org/wiki/The_Immortal_Life_of_Henrietta_Lacks) that summarizes Lacks's case as well as other cases of medical racism in the United States. The history of science is at the same time beautiful and disturbing. Understanding our collective past allows us to make scientific discoveries while preserving human dignity.
 
-Informed consent is now a prerequisite for tissue donation, and as such a wide variety of cell lines have been ethically collected and propagated from patient samples. Many of these lines are available for purchase from the American Type Culture Collection ([ATCC](atcc.org)), a nonprofit that stores bacterial strains and various eukaryotic cell lines for scientific use.
+Informed consent is now a prerequisite for tissue donation, and as such a wide variety of cell lines have been ethically collected and propagated from patient samples. Many of these lines are available for purchase from the American Type Culture Collection ([ATCC](https://www.atcc.org)), a nonprofit that stores bacterial strains and various eukaryotic cell lines for scientific use.
 
 ## Growing mammalian cells
 
@@ -22,42 +22,42 @@ Revisiting the ecological metaphor for cell culture I referenced in the section 
 
 ### Growth format
 
-Mammalian cells in culture are either **adherent** or in **suspension**, which determines the vessel we use to grow them. Adherent cells *adhere* to a surface in a monolayer and require anchoring to grow. Examples of these types of cells are epithelial cells or fibroblasts, where extensive **extracellular matrix** provides a scaffold for growth. In contrast, suspension cells are grown *free-floating* in media. Examples of these are cultured white blood cells or HeLa cells that have been trained to grow in suspension. By yield, suspension cells are preferable since they are only limited to the volume of the flask. Adherent cells, however, are the most common since many techniques like microscopy require a monolayer.
+Mammalian cells in culture are either [**adherent**](/subsections/glossary.md#adherent) or in [**suspension**](/subsections/glossary.md#suspension), which determines the vessel we use to grow them. Adherent cells *adhere* to a surface in a monolayer and require anchoring to grow. Examples of these types of cells are epithelial cells or fibroblasts, where extensive [**extracellular matrix**](/subsections/glossary.md#extracellular-matrix) provides a scaffold for growth. In contrast, suspension cells are grown *free-floating* in media. Examples of these are cultured white blood cells or HeLa cells that have been trained to grow in suspension. By yield, suspension cells are preferable since they are only limited to the volume of the flask. Adherent cells, however, are the most common since many techniques like microscopy require a monolayer.
 
-Most cells experience a type of negative feedback called **contact inhibition**. During normal growth and development, cell crowding cues adjacent cells to arrest their growth, mediated by mechanical and biochemical forces. Crowding in a cell culture dish changes the phenotype of the cell line from exponential growth to a state akin to stationary phase in bacteria. Immortalized cell lines experience contact inhibition to a lesser extent than others, but will still undergo phenotypic changes upon overcrowding.
+Most cells experience a type of negative feedback called [**contact inhibition**](/subsections/glossary.md#contact-inhibition). During normal growth and development, cell crowding cues adjacent cells to arrest their growth, mediated by mechanical and biochemical forces. Crowding in a cell culture dish changes the phenotype of the cell line from exponential growth to a state akin to stationary phase in bacteria. Immortalized cell lines experience contact inhibition to a lesser extent than others, but will still undergo phenotypic changes upon overcrowding.
 
 ### Growth media
 
 There are as many media formulations as there are mammalian cells, but by far the most used media is DMEM (Dulbecco's Modified Eagle Medium), whose formulation is itself derived from Eagle's Minimum Essential Medium. Base DMEM contains the following:
 
-- **Amino acids**
+- [**Amino acids**](/subsections/glossary.md#amino-acids)
   - All amino acids except aspartate, glutamate, asparagine, proline, and alanine.
-- **Vitamins**
+- [**Vitamins**](/subsections/glossary.md#vitamins)
   - Choline, pantothenic acid, folic acid, niacinamide, pyridoxine, riboflavin, thiamine, inositol
-- **Inorganic salts**
+- [**Inorganic salts**](/subsections/glossary.md#inorganic-salts)
   - Sodium, magnesium, calcium, iron, chloride, bicarbonate, phosphate
-- **Glucose**
-- **A pH indicator** (typically phenol red)
+- [**Glucose**](/subsections/glossary.md#glucose)
+- [**A pH indicator**](/subsections/glossary.md#ph-indicator) (typically phenol red)
 
-Cells are never cultured in base DMEM. Instead, DMEM is supplemented with fetal bovine serum (FBS), which contains additional nutrients and growth factors that are required for cells to grow. Some formulations also require the addition of glutamine in the form of glutamine-alanine dipeptide and sodium pyruvate as an alternate energy source. An antibiotic penicillin/streptomycin is usually included to prevent accidental bacterial growth. This is what is referred to as **complete media**.
+Cells are never cultured in base DMEM. Instead, DMEM is supplemented with fetal bovine serum (FBS), which contains additional nutrients and growth factors that are required for cells to grow. Some formulations also require the addition of glutamine in the form of glutamine-alanine dipeptide and sodium pyruvate as an alternate energy source. An antibiotic penicillin/streptomycin is usually included to prevent accidental bacterial growth. This is what is referred to as [**complete media**](/subsections/glossary.md#complete-media).
 
 ### pH
 
-Mammalian extracellular pH is precisely controlled at around 7.4, meaning that growth media should also match this precisely. Any changes in pH can cause cells to die very quickly. As such a **buffer** is used to maintain media pH in response to increases or decreases in species that would otherwise alter the pH. The most common pH buffering system is the **bicarbonate buffering system**, which uses dissolved sodium bicarbonate in equilibrium with atmospheric $CO_{2}$ in the following equations:
+Mammalian extracellular pH is precisely controlled at around 7.4, meaning that growth media should also match this precisely. Any changes in pH can cause cells to die very quickly. As such a [**buffer**](/subsections/glossary.md#buffer) is used to maintain media pH in response to increases or decreases in species that would otherwise alter the pH. The most common pH buffering system is the [**bicarbonate buffering system**](/subsections/glossary.md#bicarbonate-buffering-system), which uses dissolved sodium bicarbonate in equilibrium with atmospheric $CO_{2}$ in the following equations:
 
 $$
 CO_{2}(g) \leftrightarrow CO_{2}(aq) + 2H_{2}O \leftrightarrow H_{3}O^{+} + HCO_{3}^{-}
 $$
 
-As pH decreases and the solution becomes more acidic, the sodium bicarbonate and hydronium ion forms carbon dioxide and water. The water remains, but the $CO_2$ leaves into the atmosphere. To maintain the pH at 7.4, cells are kept under an atmosphere of 5% $CO_2$, much higher than the 0.04% in room air. Most cell culture media uses the bicarbonate buffer system, but others use a combination of bicarbonate and other organic acids such as MOPS or HEPES (part of a larger class called **Good's Buffers**).
+As pH decreases and the solution becomes more acidic, the sodium bicarbonate and hydronium ion forms carbon dioxide and water. The water remains, but the $CO_2$ leaves into the atmosphere. To maintain the pH at 7.4, cells are kept under an atmosphere of 5% $CO_2$, much higher than the 0.04% in room air. Most cell culture media uses the bicarbonate buffer system, but others use a combination of bicarbonate and other organic acids such as MOPS or HEPES (part of a larger class called [**Good's Buffers**](/subsections/glossary.md#goods-buffers)).
 
 ## Maintaining mammalian cells
 
-Once cells touch the plate, a timer starts. Because most cell lines proliferate following the logistic curves discussed previously, cells will deplete nutrients and get overcrowded over time. This requires a consistent schedule of moving cells from a higher density to a lower density. We call this process **passaging** or **splitting** (these terms are practically the same, semantically there is a slight difference).
+Once cells touch the plate, a timer starts. Because most cell lines proliferate following the logistic curves discussed previously, cells will deplete nutrients and get overcrowded over time. This requires a consistent schedule of moving cells from a higher density to a lower density. We call this process [**passaging**](/subsections/glossary.md#passaging) or [**splitting**](/subsections/glossary.md#splitting) (these terms are practically the same, semantically there is a slight difference).
 
 ### Passaging adherent cells
 
-Adherent cells, while they proliferate, lay down a complex network of glycoproteins called the **extracellular matrix**. This matrix is composed of proteins, polysaccharides and metal cations (mostly calcium) that cooperate to form a sticky, robust layer on which cells will grow and move. In order to remove cells from their extracellular matrix and allow them to be split effectively, we must first detach cells from their matrix. To do this, we use **trypsin** (a mixture of proteases) and **EDTA** (a metal ion chelator).
+Adherent cells, while they proliferate, lay down a complex network of glycoproteins called the [**extracellular matrix**](/subsections/glossary.md#extracellular-matrix). This matrix is composed of proteins, polysaccharides and metal cations (mostly calcium) that cooperate to form a sticky, robust layer on which cells will grow and move. In order to remove cells from their extracellular matrix and allow them to be split effectively, we must first detach cells from their matrix. To do this, we use [**trypsin**](/subsections/glossary.md#trypsin) (a mixture of proteases) and [**EDTA**](/subsections/glossary.md#edta) (a metal ion chelator).
 
 Trypsin is a complex mixture of proteases that are derived from porcine pancreases. They are natural digestive enzymes that break down the peptide bonds in proteins. These proteins are then dissolved into the solution and the cells are allowed to detach from the plate. That said, cells are sticky and have proteins that interact via intermolecular bonds mediated by calcium. Even if we just treated the cells with trypsin, the cells will still clump together due to intercellular interactions mediated by these calcium-dependent proteins. This is why we add EDTA, which binds to calcium and strip it from the calcium dependent proteins. The cells lose the ability to clump, leaving us with a single-cell suspension.
 
@@ -85,7 +85,7 @@ A typical workflow for splitting cells is as follows:
 
 6. **Seed new cells in a fresh plate**
 
-    We plate a subset of our harvested cells in a new plate along with fresh media in a process called **seeding**. Seeding density varies widely with cell type. Some cells prefer growing with a lot of neighbors, some proliferate at a lower density.
+    We plate a subset of our harvested cells in a new plate along with fresh media in a process called [**seeding**](/subsections/glossary.md#seeding). Seeding density varies widely with cell type. Some cells prefer growing with a lot of neighbors, some proliferate at a lower density.
 
 When working with an established cell line, there are very often protocols in place that standardize the practice of cell maintenance. If you are working with a new cell line that requires more intensive methods development, there are several knobs to turn here to optimize the maintenance of your cell line:
 
