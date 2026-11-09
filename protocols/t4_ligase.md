@@ -10,7 +10,7 @@
 
 ## Protocol
 
-1. Thaw the T4 DNA ligase and T4 buffer at room temperature. The buffer may have crystals floating when cold, but vortexing and warming will redissolve them. Do not vortext the T4 DNA ligase.
+1. Thaw the T4 DNA ligase and T4 buffer at room temperature. The buffer may have crystals floating when cold, but vortexing and warming will redissolve them. Do not vortex the T4 DNA ligase.
 
 1. Combine insert:vector DNA in a 3:1 molar ratio in a microcentrifuge tube. Use [this calculator](https://nebiocalculator.neb.com/#!/ligation#!%2F) to determine the mass of each fragment to add to the reaction.
 

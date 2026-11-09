@@ -28,4 +28,4 @@
 3. Add Type IIS restriction enzyme. Gently mix by pipetting 5 times.
 5. Incubate at 37ºC for 15 minutes, then deactivate at 60ºC for 5 minutes.
 7. Chill on ice.
-8. User 2 µl of the reaction to transform 50 µl of competent cells.
+8. Use 2 µl of the reaction to transform 50 µl of competent cells.

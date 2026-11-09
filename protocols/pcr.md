@@ -41,7 +41,7 @@
 | Final extension | 72 °C | 5–10 min | 1 |
 | Hold | 4 °C | ∞ | — |
 
-*Since Q5 has a higher salt concentration and a higher binding temperature than *Taq* polymerase, use an online calculator to determine the melting temperature of your primers and adjust accordintly. [This one](https://tmcalculator.neb.com/#!/main) on NEB's website is my favorite.
+*Since Q5 has a higher salt concentration and a higher binding temperature than *Taq* polymerase, use an online calculator to determine the melting temperature of your primers and adjust accordingly. [This one](https://tmcalculator.neb.com/#!/main) on NEB's website is my favorite.
 
 ### Verification
 

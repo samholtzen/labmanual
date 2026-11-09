@@ -6,7 +6,7 @@ Cloning is the process of assembling a DNA construct — typically a gene of int
 
 ### 1.1.1 DNA, Plasmids, and Vectors
 
-A plasmid is a circular piece of DNA, with no start or end. Circular DNA is very stable, since it has no free 5’ or 3’-hydroxyl ends for **nucleases** to target. Plasmids were originally derived from bacteria, which harbor various kind of plasmids encoding genes for reproduction, antibiotic resistance, and virulence. Humans can take advantage of plasmids as a vector for genetic alteration or introduction of a perturbation to an organism. Plasmids can vary widely, but those used for routine gene expression contain the following: 
+A plasmid is a circular piece of DNA, with no start or end. Circular DNA is very stable, since it has no free 5’ or 3’-hydroxyl ends for **nucleases** to target. Plasmids were originally derived from bacteria, which harbor various kinds of plasmids encoding genes for reproduction, antibiotic resistance, and virulence. Humans can take advantage of plasmids as a vector for genetic alteration or introduction of a perturbation to an organism. Plasmids can vary widely, but those used for routine gene expression contain the following: 
 
 - **Origin of replication**: the region of the plasmid that allows it to be propagated inside of a bacterium.
 
@@ -48,7 +48,7 @@ The most common form of DNA ligase used in the lab is T4 DNA ligase, an enzyme t
 
 Traditional **restriction/ligation** cloning using type II enzymes and a T4 ligase is useful for joining one or two inserts into vector. This requires *multiple* restriction enzymes, each with a different recognition sequence. Since the pool of palindromic sequences between 5 and 6 nucleotides in length is limited, increasing the number of inserts becomes very difficult. This is why we turn to type IIS restriction enzymes for multi-insert cloning.
 
-Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves an sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for **annealing** and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
+Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves a sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for **annealing** and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
 
 Although it requires some very precise design, one can design a vector that has a self-excising type IIS restriction site that matches directly with the overhangs left from the type IIS site on the fragments you want to insert. Since the overhangs can be any sequence of `NNNN`, one can theoretically ligate up to 128 fragments simultaneously in one reaction. In reality, though, Golden Gate is rarely used to ligate more than 7 fragments due to mismatches during annealing.
 
@@ -90,9 +90,9 @@ PCR and restriction digest cleanup: e.g. Zymo Research's [DNA Clean & Concentrat
 
 Gel purification: e.g. NEB's [Monarch DNA Gel Extraction Kit](https://www.neb.com/en-us/products/t1020-monarch-dna-gel-extraction-kit)
 
-### [1.3.4 Ligation Reaction](/protocols/t4_ligase.md)
+### [1.2.4 Ligation Reaction](/protocols/t4_ligase.md)
 
-### [1.3.5 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
+### [1.2.5 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
 
 ---
 
