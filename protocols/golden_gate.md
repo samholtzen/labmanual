@@ -1,5 +1,7 @@
 # Golden Gate Assembly Protocol for NEBridge Ligase Master Mix with PaqCI
 
+Adapted from "Golden Gate Assembly Protocol for NEBridge Ligase Master Mix with PaqCI" from NEB.
+
 ### Components
 
 - Vector DNA with PaqCI restriction sites
@@ -12,7 +14,7 @@
 
 ### Protocol
 
-1. Based on assembly complexity, determine reaction component volumes (Table 1). The volume of Type IIS restriction enzyme (x µl) can be found in Table 2.
+1. Based on assembly complexity, determine reaction component volumes (Table 1)
 
     | **COMPONENTS** | **2-6 FRAGMENT ASSEMBLY** |
     | --- | --- |
@@ -23,7 +25,7 @@
     | Nuclease-free Water | y µl |
     | Total Reaction Volume | 15 µl |
 
-1. Set up a reaction in a microcentrifuge tube on ice. Mix DNA fragments with nuclease-free water
+1. Set up a reaction in a microcentrifuge tube on ice. Mix DNA fragments with nuclease-free water. Add the PaqCI activator at this time.
 2. Add NEBridge Ligase Master Mix to DNA fragments and water. Mix gently by pipetting 3 times.
 3. Add Type IIS restriction enzyme. Gently mix by pipetting 5 times.
 5. Incubate at 37ºC for 15 minutes, then deactivate at 60ºC for 5 minutes.

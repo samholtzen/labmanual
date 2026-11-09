@@ -130,9 +130,9 @@ A typical workflow for freezing cells is as follows:
 
 Cells are usually frozen slowly and thawed quickly. We try to minimize the time cells spend in DMSO and at temperatures between -150ºC and 37ºC by thawing cells and removing DMSO quickly.
 
-A typical workflow for freezing cells is as follows:
+A typical workflow for thawing cells is as follows:
 
-1. **Start a water bath set at 37ºC is ready for the cells to facilitate thawing.**
+1. **Start a water bath set at 37ºC to facilitate thawing.**
 2. **Remove a vial of cells from the cryostorage and immediately place in the 37ºC water bath.**
 
 3. **When cells are thawed fully, transfer to 10X volume of full growth media**

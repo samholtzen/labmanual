@@ -63,7 +63,7 @@ Polymerase chain reaction (PCR) is an indispensable technique in the tool belt o
 - Single-stranded DNA primers: short [**oligonucleotides**](/subsections/glossary.md#oligonucleotide) that are complementary to strands of the template DNA, often referred to as *forward* and *reverse* primers, indicating the direction in which they prime the polymerase to synthesize
 - Deoxynucleotide triphosphates (dNTPs): The building blocks of DNA. They are the substrate for DNA polymerase and will be chained together to form the complementary strand of DNA.
 
-A typical PCR is composed of three main steps, each taking place at a different temperature:
+A typical PCR is composed of four main steps, each taking place at a different temperature:
 
 1. Melting (95ºC): the template DNA to be copied is heated up until the hydrogen bonds holding the base pairs together are broken. This generates two complementary single-stranded DNA molecules.
 2. Annealing (50-70ºC): the temperature of the reaction is lowered, allowing the single-stranded complementary primers to base pair with their complementary sequences on the DNA molecule. This "priming" allows the DNA polymerase to recognize the double-stranded DNA and associate with the duplex.
