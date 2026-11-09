@@ -1,0 +1,8 @@
+AGENTS.md
+COMMENTS.md
+.claude/
+
+# Site build
+.venv/
+_build/
+_site/

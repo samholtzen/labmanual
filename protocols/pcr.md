@@ -25,7 +25,7 @@
 ### Preparation Steps
 
 1. Thaw all reagents and vortex briefly to mix.
-2. Prepare a **master mix** containing the PCR Mix and both amplification primers.
+2. Prepare a [**master mix**](/subsections/glossary.md#master-mix) containing the PCR Mix and both amplification primers.
 3. Aliquot master mix into individual PCR tubes.
 4. Add template DNA to each tube.
 5. Cap tubes and briefly centrifuge (1,000 × g, 5 seconds) to collect contents.

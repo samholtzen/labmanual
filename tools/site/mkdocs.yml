@@ -1,0 +1,62 @@
+# MkDocs config for the lab manual site.
+# Paths are relative to this file. Run via tools/site/build.py, which stages
+# the Markdown sources into _build/docs first.
+site_name: A Bioengineer's Guide to Molecular Biology
+docs_dir: ../../_build/docs
+site_dir: ../../_site
+use_directory_urls: true
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Helvetica Neue
+
+
+# Add a page: create the Markdown file, then add one line here.
+nav:
+  - Home: index.md
+  - Chapters:
+      - Molecular Cloning: subsections/cloning.md
+      - Bacterial Cell Culture: subsections/bacteria.md
+      - Mammalian Cell Culture: subsections/mammalian_cells.md
+      - Common techniques: subsections/under_construction.md
+  - Protocols:
+      - PCR: protocols/pcr.md
+      - Restriction Digest: protocols/restriction_digest.md
+      - T4 Ligation: protocols/t4_ligase.md
+      - Golden Gate Assembly: protocols/golden_gate.md
+      - Chemical Transformation of E. coli: protocols/chemical_transformation_of_e_coli.md
+  - Glossary: subsections/glossary.md
+
+markdown_extensions:
+  - tables
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css
