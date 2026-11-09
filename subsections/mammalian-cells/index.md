@@ -14,7 +14,7 @@ Informed consent is now a prerequisite for tissue donation, and as such a wide v
 
 ## Growing mammalian cells
 
-Revisiting the ecological metaphor for cell culture I referenced in the section on [bacteria](/subsections/bacteria.md), mammalian cell growth follows a similar model. In a growth vessel, adherent cells will use nutrients to divide and (for the most part) will continue to consume nutrients and divide until the population reaches carrying capacity. The carrying capacity of the growth vessel is defined not only by available nutrients, but also growth surface area and the accumulation of toxic metabolites. Population dynamics aside, these attributes of mammalian cell culture represent a handful of practical guidelines for the day-to-day maintenance of mammalian cell lines:
+Revisiting the ecological metaphor for cell culture I referenced in the section on [bacteria](/subsections/bacteria/index.md), mammalian cell growth follows a similar model. In a growth vessel, adherent cells will use nutrients to divide and (for the most part) will continue to consume nutrients and divide until the population reaches carrying capacity. The carrying capacity of the growth vessel is defined not only by available nutrients, but also growth surface area and the accumulation of toxic metabolites. Population dynamics aside, these attributes of mammalian cell culture represent a handful of practical guidelines for the day-to-day maintenance of mammalian cell lines:
 
 1. Cells like neighbors, but not too many.
 2. Cells need plenty of nutrients.

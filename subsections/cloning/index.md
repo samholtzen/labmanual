@@ -2,9 +2,9 @@
 
 Cloning is the process of assembling a DNA construct — typically a gene of interest in a defined vector backbone — so that it can be propagated in bacteria and expressed in a target organism. Cloning can get ***very*** complicated ***very*** fast, so we will keep this as simple as possible for you to get a feel for the types of transformations you can do with just linear double-stranded DNA and nature's molecular machinery.
 
-## 1.1 Background: Molecular Biology Fundamentals
+## Background: Molecular Biology Fundamentals
 
-### 1.1.1 DNA, Plasmids, and Vectors
+### DNA, Plasmids, and Vectors
 
 A plasmid is a circular piece of DNA, with no start or end. Circular DNA is very stable, since it has no free 5’ or 3’-hydroxyl ends for [**nucleases**](/subsections/glossary.md#nuclease) to target. Plasmids were originally derived from bacteria, which harbor various kinds of plasmids encoding genes for reproduction, antibiotic resistance, and virulence. Humans can take advantage of plasmids as a vector for genetic alteration or introduction of a perturbation to an organism. Plasmids can vary widely, but those used for routine gene expression contain the following: 
 
@@ -26,7 +26,7 @@ A plasmid is a circular piece of DNA that contains genetic regions encoded in it
 
 ![A prototypical plasmid](/media/plasmid.png)
 
-### 1.1.2 Restriction Enzymes
+### Restriction Enzymes
 
 [**Nucleases**](/subsections/glossary.md#nuclease) are a class of enzyme that acts to break down nucleic acids (DNA, RNA, etc). DNases (DNA nucleases), come in two flavors: exonuclease and endonucleases. Exonucleases, like their name suggests, act to digest DNA from its terminal 5'-OH or 3'-OH ends and are highly efficient at degrading DNA. In contrast, endonucleases cut DNA from inside and can be [**nonspecific**](/subsections/glossary.md#nonspecific) or cut only at a recognized sequence (restriction endonucleases).
 
@@ -36,7 +36,7 @@ Type II and type IIS restriction enzymes are commonly used in molecular cloning 
 
 Like everything in biology, restriction enzymes are not perfect. Oftentimes, there is a [**consensus**](/subsections/glossary.md#consensus) sequence where enzymes cut, but this sequence is not always strictly obeyed. Therefore, enzymes exhibit [**star activity**](/subsections/glossary.md#star-activity), or off-target cutting. An example of this is the restriction enzyme BamHI, where the most common cutting sequence is `G|GATCC` but depending on salt concentration and pH, it can cut at other sites.
 
-### 1.1.3 DNA Ligation
+### DNA Ligation
 
 As you may have recognized, when using the correct restriction enzymes on both your backbone and your insert, you will have palindromic sequences that can base pair. This is the main reason we use Type II restriction enzymes: to guide assembly of two or more pieces of DNA based on their end homology. Restriction digests can give us these pieces of DNA, but we use DNA ligation to stitch them together.
 
@@ -44,17 +44,17 @@ The most common form of DNA ligase used in the lab is T4 DNA ligase, an enzyme t
 
 ![Ligation with T4 DNA ligase](/media/t4_ligase.png)
 
-### 1.1.4 Golden Gate Assembly
+### Golden Gate Assembly
 
 Traditional [**restriction/ligation**](/subsections/glossary.md#restrictionligation) cloning using type II enzymes and a T4 ligase is useful for joining one or two inserts into vector. This requires *multiple* restriction enzymes, each with a different recognition sequence. Since the pool of palindromic sequences between 5 and 6 nucleotides in length is limited, increasing the number of inserts becomes very difficult. This is why we turn to type IIS restriction enzymes for multi-insert cloning.
 
-Recall in [section 1.1.2](#112-restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves a sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for [**annealing**](/subsections/glossary.md#annealing) and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
+Recall in the section on [restriction enzymes](#restriction-enzymes), type IIS restriction enzymes do not cut at their cognate recognition sequence, but instead cut asymmetrically. This leaves a sticky-end of *any* nucleotide sequence `NNNN`. If designed correctly, the sequences of overhanging DNA in each of your fragments will complement with each other, allowing for [**annealing**](/subsections/glossary.md#annealing) and subsequent ligation with T4 ligase. This technique was originally published in 2008, under the name [Golden Gate](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0003647).
 
 Although it requires some very precise design, one can design a vector that has a self-excising type IIS restriction site that matches directly with the overhangs left from the type IIS site on the fragments you want to insert. Since the overhangs can be any sequence of `NNNN`, one can theoretically ligate up to 128 fragments simultaneously in one reaction. In reality, though, Golden Gate is rarely used to ligate more than 7 fragments due to mismatches during annealing.
 
 ![Golden Gate cloning](/media/golden_gate.png)
 
-### 1.1.5 Polymerase Chain Reaction (PCR)
+### Polymerase Chain Reaction (PCR)
 
 Polymerase chain reaction (PCR) is an indispensable technique in the tool belt of a biologist. At its core, PCR copies a DNA sequence using a template, a DNA polymerase, single-stranded DNA primers, and deoxynucleotide triphosphates:
 
@@ -78,26 +78,26 @@ This cycle is repeated 20-40 times, each time doubling the number of individual 
 
 ---
 
-## 1.2 Protocols: Restriction Enzyme Cloning
+## Protocols: Restriction Enzyme Cloning
 
-### [1.2.1 PCR Amplification of Insert](/protocols/pcr.md)
+### [PCR Amplification of Insert](/protocols/pcr.md)
 
-### [1.2.2 Restriction Digest](/protocols/restriction_digest.md)
+### [Restriction Digest](/protocols/restriction_digest.md)
 
-### 1.2.3 Gel Extraction & Cleanup
+### Gel Extraction & Cleanup
 
 PCR and restriction digest cleanup: e.g. Zymo Research's [DNA Clean & Concentrate Kit](https://www.zymoresearch.com/products/dna-clean-concentrator-5)
 
 Gel purification: e.g. NEB's [Monarch DNA Gel Extraction Kit](https://www.neb.com/en-us/products/t1020-monarch-dna-gel-extraction-kit)
 
-### [1.2.4 Ligation Reaction](/protocols/t4_ligase.md)
+### [Ligation Reaction](/protocols/t4_ligase.md)
 
-### [1.2.5 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
+### [Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
 
 ---
 
-## 1.3 Protocol: Golden Gate Assembly
+## Protocol: Golden Gate Assembly
 
-### 1.3.1 [One-Pot Assembly Reaction](/protocols/golden_gate.md)
+### [One-Pot Assembly Reaction](/protocols/golden_gate.md)
 
-### [1.3.2 Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
+### [Bacterial Transformation](/protocols/chemical_transformation_of_e_coli.md)
