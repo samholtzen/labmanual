@@ -40,7 +40,7 @@ OUTPUT = ROOT / "_site"
 
 # Only these paths are published. Everything else (lab_manual.md, AGENTS.md,
 # COMMENTS.md, openspec/, tools/, ...) is deliberately left out.
-ALLOWED_DIRS = ["subsections", "protocols", "media"]
+ALLOWED_DIRS = ["units", "protocols", "media"]
 HOME_SOURCE = "README.md"
 HOME_TARGET = "index.md"
 
@@ -120,7 +120,7 @@ def rewrite_links(text, page_rel, staged_files):
     """Turn root-relative link targets into paths relative to the page.
 
     page_rel: staged page path relative to the stage root (posix), e.g.
-              "subsections/cloning.md".
+              "units/cloning/index.md".
     staged_files: set of staged file paths (posix, relative to the stage).
     """
     page_dir = PurePosixPath(page_rel).parent
