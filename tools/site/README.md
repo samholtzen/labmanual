@@ -32,31 +32,34 @@ Upload the contents of `_site/` to your host. No server-side code or rewrite rul
 
 ## What gets published
 
-Only `README.md` (as the home page), `subsections/`, `protocols/`, and `media/`. Files such as `lab_manual.md`, `AGENTS.md`, `COMMENTS.md`, and `openspec/` are never copied.
+Only `README.md` (as the home page), `units/`, `protocols/`, and `media/`. Files such as `lab_manual.md`, `AGENTS.md`, `COMMENTS.md`, and `openspec/` are never copied.
 
 The build works on a copy in `_build/docs/` (git-ignored). In that copy it rewrites root-relative links such as `/media/x.png` and `/protocols/pcr.md` so they work at any base path. The build stops with an error if a link points at a page or image that does not exist.
 
 ## How the content is laid out
 
-- **A chapter is a directory** under `subsections/` with an `index.md` landing page. `subsections/cloning/index.md` is published at `/subsections/cloning/`. Use lowercase names with hyphens (`mammalian-cells`).
+The guide reads like a textbook: **units** (such as Bacterial Cell Culture) are split into **chapters** (such as Strain Selection).
+
+- **A unit is a directory** under `units/`. Its `index.md` is the unit introduction, published at `/units/<unit>/`. Use lowercase names with hyphens (`mammalian-cells`).
+- **A chapter is one Markdown file** inside its unit's directory, e.g. `units/bacteria/strain-selection.md`, published at `/units/bacteria/strain-selection/`. Each chapter has exactly one `#` heading, its title.
 - **Protocols stay flat.** One file per protocol, directly in `protocols/`, so each keeps a short, stable address like `/protocols/pcr/`.
-- **The glossary is one page**, `subsections/glossary.md`.
-- **Cross-cutting techniques** that several chapters rely on (gels, DNA quantification, and so on) go in the `foundations` chapter.
-- **Reading order comes from the `nav:` list** in `tools/site/mkdocs.yml`, not from filenames or heading numbers. Do not number headings by hand.
+- **The glossary is one page**, `units/glossary.md`.
+- **Cross-cutting techniques** that several units rely on (aseptic technique, gels, DNA quantification, and so on) go in the `foundations` unit.
+- **Reading order comes from the `nav:` list** in `tools/site/mkdocs.yml`, not from filenames or heading numbers. Do not number headings by hand. Each page gets "Previous" and "Next" links in that order.
 
 ## Add a page
 
-To add a section to an existing chapter:
+To add a chapter to an existing unit:
 
-1. Add the Markdown file inside the chapter's directory, e.g. `subsections/cloning/gibson.md`.
-2. Add one line for it in `tools/site/mkdocs.yml`, under that chapter and after its `index.md` line.
-3. Link to it from the chapter's `index.md`.
+1. Add the Markdown file inside the unit's directory, e.g. `units/cloning/gibson.md`.
+2. Add one line for it in `tools/site/mkdocs.yml`, under that unit, after its `index.md` line, in reading order.
+3. Add it under its unit in the table of contents in `README.md`.
 4. Rebuild.
 
-To add a new chapter:
+To add a new unit:
 
-1. Create `subsections/<chapter>/index.md`.
-2. In the `nav:` list, add a group for it under `Chapters`, with `index.md` as the first entry (this makes the chapter name itself a link).
+1. Create `units/<unit>/index.md`.
+2. In the `nav:` list, add a group for it under `Units`, with `index.md` as the first entry (this makes the unit name itself a link).
 3. Add one entry for it to the table of contents in `README.md`.
 4. Rebuild.
 
@@ -66,7 +69,7 @@ To add a protocol:
 2. Add one line for it under `Protocols` in the `nav:` list.
 3. Rebuild.
 
-A page's address comes from its path, e.g. `protocols/pcr.md` becomes `/protocols/pcr/`, and `subsections/cloning/index.md` becomes `/subsections/cloning/`.
+A page's address comes from its path, e.g. `protocols/pcr.md` becomes `/protocols/pcr/`, and `units/cloning/index.md` becomes `/units/cloning/`.
 
 ## What is in this folder
 
