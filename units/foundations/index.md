@@ -10,7 +10,7 @@ You do not have to read this chapter first. You will run into these ideas in the
 
 - The [PCR protocol](/protocols/pcr.md) ends by checking the product on an agarose gel.
 - The [ligation](/protocols/t4_ligase.md) and [Golden Gate](/protocols/golden_gate.md) protocols specify DNA by mass and by moles, which means you need a way to measure and convert.
-- The [cloning chapter](/subsections/cloning/index.md) points to kits for cleaning up reactions and purifying DNA from a gel.
+- The [cloning chapter](/units/cloning/index.md) points to kits for cleaning up reactions and purifying DNA from a gel.
 
 ## What this chapter will cover
 

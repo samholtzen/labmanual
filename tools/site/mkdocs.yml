@@ -34,20 +34,20 @@ nav:
   - Home: index.md
   - Chapters:
       - Molecular Cloning:
-          - subsections/cloning/index.md
+          - units/cloning/index.md
       - Bacterial Cell Culture:
-          - subsections/bacteria/index.md
+          - units/bacteria/index.md
       - Mammalian Cell Culture:
-          - subsections/mammalian-cells/index.md
+          - units/mammalian-cells/index.md
       - Foundations:
-          - subsections/foundations/index.md
+          - units/foundations/index.md
   - Protocols:
       - PCR: protocols/pcr.md
       - Restriction Digest: protocols/restriction_digest.md
       - T4 Ligation: protocols/t4_ligase.md
       - Golden Gate Assembly: protocols/golden_gate.md
       - Chemical Transformation of E. coli: protocols/chemical_transformation_of_e_coli.md
-  - Glossary: subsections/glossary.md
+  - Glossary: units/glossary.md
 
 markdown_extensions:
   - tables
