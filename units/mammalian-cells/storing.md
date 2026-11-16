@@ -6,7 +6,7 @@ As cells are passaged multiple times, they begin to take on morphological and ph
 
 A typical workflow for freezing cells is as follows:
 
-1. **Follow the steps from the section on splitting cells through the resuspension and counting step.**
+1. **Follow the steps from the chapter on splitting cells through the resuspension and counting step.**
 2. **Adjust the media volume to yield a 1 million cells/mL concentration.**
 
     When freezing cells down, we usually freeze 1 million cells per cryovial.

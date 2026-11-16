@@ -1,6 +1,6 @@
 # Maintaining mammalian cells
 
-Once cells touch the plate, a timer starts. Because most cell lines proliferate following the logistic curves discussed previously, cells will deplete nutrients and get overcrowded over time. This requires a consistent schedule of moving cells from a higher density to a lower density. We call this process [**passaging**](/units/glossary.md#passaging) or [**splitting**](/units/glossary.md#splitting) (these terms are practically the same, semantically there is a slight difference).
+Once cells touch the plate, a timer starts. Because most cell lines proliferate following the logistic curves discussed in the section on [bacterial culture](/units/bacteria/culture.md), cells will deplete nutrients and get overcrowded over time. This requires a consistent schedule of moving cells from a higher density to a lower density. We call this process [**passaging**](/units/glossary.md#passaging) or [**splitting**](/units/glossary.md#splitting) (these terms are practically the same, semantically there is a slight difference).
 
 ## Passaging adherent cells
 

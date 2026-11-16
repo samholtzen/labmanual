@@ -1,6 +1,6 @@
 # Genetic manipulation
 
-As previously discussed, bacterial genomes and genotypes can be manipulated using tools such as [**transformation**](/units/glossary.md#transformation), or introducing external genetic material into an organism. This can be simple (e.g. genetic recombination, mutagenesis) or complex (e.g. CRISPR/Cas9 editing, phage integrase). Before a bacteria can be successfully transformed, we must first do three things:
+Bacterial genomes and genotypes can be manipulated using tools such as [**transformation**](/units/glossary.md#transformation), or introducing external genetic material into an organism. This can be simple (e.g. genetic recombination, mutagenesis) or complex (e.g. CRISPR/Cas9 editing, phage integrase). Before a bacteria can be successfully transformed, we must first do three things:
 
 1. Ensure the bacteria are receptive to genetic manipulation.
 2. Introduce the foreign DNA or mutagen to the cell.
