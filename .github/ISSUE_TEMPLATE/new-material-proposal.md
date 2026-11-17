@@ -1,6 +1,6 @@
 ---
-name: 
-about: 
+name: New Material
+about: Propose new material that you have written or want to write. 
 title: 
 labels: 
 ---
