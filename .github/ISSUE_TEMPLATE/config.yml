@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Not sure whether to open an issue or a PR?
+    url: https://github.com/samholtzen/labmanual/blob/main/CONTRIBUTING.md#prs-vs-issues
+    about: Read the PR vs Issue guide in CONTRIBUTING.md.
+  - name: Contributing guide
+    url: https://github.com/samholtzen/labmanual/blob/main/CONTRIBUTING.md
+    about: How to contribute, with or without Git.
