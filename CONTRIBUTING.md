@@ -20,7 +20,7 @@ There are so many ways that you can contribute to the Manual! Whether you write 
 
 Absolutely! You have a couple of options:
 
-**Option 1, Open an issue:**: Instead of contributing by cloning the repo, branching, editing, and opening a PR, you can open an [issue](https://github.com/samholtzen/labmanual/issues). For example, if you find a typo, an unclear step, or want to contribute an entire new chapter, just open an issue. All you need is a GitHub account, which is free.
+**Option 1, Open an issue:** Instead of contributing by cloning the repo, branching, editing, and opening a PR, you can open an [issue](https://github.com/samholtzen/labmanual/issues). For example, if you find a typo, an unclear step, or want to contribute an entire new chapter, just open an issue. All you need is a GitHub account, which is free.
 
 **Option 2, Send me text:** I am happy to do the legwork of porting your text over and attributing you as the source author! Feel free to send me an email with the documents you'd like converted to Markdown and incorporated into the textbook! In this case, I will convert the document whole cloth and it will undergo the same PR/review process.
 
