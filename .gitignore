@@ -6,3 +6,4 @@ COMMENTS.md
 .venv/
 _build/
 _site/
+figures/
