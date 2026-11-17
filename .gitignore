@@ -7,3 +7,4 @@ COMMENTS.md
 _build/
 _site/
 figures/
+__pycache__/

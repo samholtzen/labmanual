@@ -1,0 +1,98 @@
+name: New Material
+description: Propose a new chapter, protocol, or unit that you have written or want to write.
+title: "[Proposal]: "
+labels: ["new-material", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for offering to write for the Manual! An admin will reply with one of three responses: **Go ahead**, **Go ahead, but with changes to the scope**, or **Does not fit**. Proposals with a clear outline and some draft text are the quickest to approve. See [CONTRIBUTING.md](https://github.com/samholtzen/labmanual/blob/main/CONTRIBUTING.md#issues-for-large-work).
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want to add?
+      description: A short summary of the chapter, protocol, or unit.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type of material
+      options:
+        - Chapter
+        - Protocol
+        - Unit
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Audience
+      description: Who is it for? Which unit would it belong to, and what reader level?
+    validations:
+      required: true
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: Proposed outline
+      description: A few bullets covering what the material would include.
+      placeholder: |
+        - Background
+        - Choosing a method
+        - Common problems
+    validations:
+      required: true
+
+  - type: dropdown
+    id: drafts
+    attributes:
+      label: Do you have draft text?
+      options:
+        - "Yes, a full draft"
+        - "Yes, a partial draft"
+        - "Not yet"
+    validations:
+      required: true
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related existing content
+      description: Chapters or protocols in the Manual that this builds on or overlaps with.
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Key references you plan to cite.
+
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety considerations
+      description: Any hazards, PPE, or waste handling the material will cover.
+
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience with this topic
+      description: For example, how often you have run the protocol or how long you have worked in this area.
+
+  - type: checkboxes
+    id: ai
+    attributes:
+      label: AI statement
+      description: See the [AI statement](https://github.com/samholtzen/labmanual/blob/main/CONTRIBUTING.md#ai-statement).
+      options:
+        - label: I will write the prose myself. I will not use AI to generate the text.
+          required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else

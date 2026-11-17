@@ -1,10 +1,18 @@
 # MkDocs config for the lab manual site.
 # Paths are relative to this file. Run via tools/site/build.py, which stages
 # the Markdown sources into _build/docs first.
-site_name: A Bioengineer's Guide to Molecular Biology
+site_name: The Lab Manual
 docs_dir: ../../_build/docs
 site_dir: ../../_site
 use_directory_urls: true
+
+# "Edit this page" pencil icon on every page. It opens the source file in
+# GitHub's browser editor, which forks the repo and opens a PR for the reader.
+repo_url: https://github.com/samholtzen/labmanual
+repo_name: samholtzen/labmanual
+edit_uri: edit/main/
+hooks:
+  - hooks.py
 
 theme:
   name: material
@@ -17,6 +25,7 @@ theme:
     - navigation.footer
     - search.highlight
     - content.code.copy
+    - content.action.edit
   palette:
     - scheme: default
       toggle:

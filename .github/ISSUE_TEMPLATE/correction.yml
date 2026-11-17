@@ -1,0 +1,55 @@
+name: Correction
+description: Report a mistake in the Manual, such as a wrong number, an unclear step, or a broken link.
+title: "[Correction]: "
+labels: ["correction", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Manual accurate! If the fix is quick (under about 15 minutes), you can also open a pull request directly. See [CONTRIBUTING.md](https://github.com/samholtzen/labmanual/blob/main/CONTRIBUTING.md#prs-vs-issues).
+
+  - type: input
+    id: location
+    attributes:
+      label: Where is the error?
+      description: The page URL or file path, and the section or step if you can.
+      placeholder: "units/cloning/pcr.md, step 4"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Quote the text if you can, and explain the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: What should it say instead?
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A paper, manufacturer protocol, or other reference that supports the fix. Required for changes to numbers, times, temperatures, or concentrations.
+
+  - type: dropdown
+    id: safety
+    attributes:
+      label: Safety impact
+      description: Does this error affect hazards, PPE, waste handling, or dosing?
+      options:
+        - "No"
+        - "Yes"
+        - "Not sure"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else

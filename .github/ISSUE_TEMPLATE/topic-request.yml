@@ -1,0 +1,53 @@
+name: Topic Request
+description: Request a topic you would like added to the Manual.
+title: "[Topic request]: "
+labels: ["topic-request", "needs-triage"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: What topic would you like to see covered?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it needed?
+      description: What gap would it fill? What did you look for and not find?
+    validations:
+      required: true
+
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is it for?
+      description: For example, new undergraduates, rotating graduate students, or experienced researchers trying a new technique.
+
+  - type: textarea
+    id: related
+    attributes:
+      label: Related existing content
+      description: Chapters or protocols in the Manual that are close to this topic.
+
+  - type: textarea
+    id: sources
+    attributes:
+      label: Useful sources
+      description: Papers, reviews, or protocols that would help whoever writes it.
+
+  - type: dropdown
+    id: write
+    attributes:
+      label: Would you like to write it?
+      options:
+        - "No, just requesting"
+        - "Maybe, with help"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Anything else
