@@ -32,3 +32,7 @@ If you want to contribute, please feel free to reach out!
 ## AI usage
 
 I use Claude for scaffolding the website builds and for proofreading, but none of the prose in this repository is AI generated. That means that I (or any contributor) write the text that the users actually read. If you are interested in contributing, I ask that you refrain from using Claude, or any other AI agent from generating text that is published to this repository. Proofreading of text is fine, but make sure that you are the person doing the typing.
+
+## License
+
+The content of the Lab Manual is licensed under the CC BY 4.0, the code in `tools/` under MIT, and by contributing you agree to work under the terms of the licenses.
