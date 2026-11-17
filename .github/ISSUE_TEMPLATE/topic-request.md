@@ -1,6 +1,6 @@
 ---
-name: 
-about: 
+name: Topic Request
+about: Request a topic you would like added to the Manual.
 title: 
 labels: 
 ---

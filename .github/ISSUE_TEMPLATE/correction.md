@@ -1,6 +1,6 @@
 ---
-name: 
-about: 
+name: Correction
+about: Correct a mistake in the Manual.
 title: 
 labels: 
 ---
