@@ -1,0 +1,61 @@
+# Build the site with MkDocs and publish it to GitHub Pages.
+#
+# Runs on every push to main (including merged PRs), and can be started by
+# hand from the Actions tab ("Run workflow").
+#
+# One-time setup: Settings -> Pages -> Build and deployment -> Source:
+# "GitHub Actions". A custom domain is set on that same page; no CNAME file
+# is needed, and the build picks up the new address automatically.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Read the repo, and publish to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Only one deploy at a time. A newer push waits for the running deploy to
+# finish rather than cancelling it halfway.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/site/requirements.txt
+
+      # Gives the site's public address: the custom domain if one is set,
+      # otherwise https://<user>.github.io/<repo>.
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      # build.py installs the pinned requirements into .venv itself.
+      - name: Build site
+        run: python tools/site/build.py --site-url "${{ steps.pages.outputs.base_url }}/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

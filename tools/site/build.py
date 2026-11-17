@@ -34,6 +34,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 REQUIREMENTS = HERE / "requirements.txt"
 MKDOCS_CONFIG = HERE / "mkdocs.yml"
+HOOKS = HERE / "hooks.py"
 ASSETS = HERE / "assets"
 STAGE = ROOT / "_build" / "docs"
 OUTPUT = ROOT / "_site"
@@ -66,13 +67,19 @@ def normalize_site_url(value):
 
 
 def write_site_url_config(site_url):
-    """Write a config that inherits the main one and sets site_url."""
+    """Write a config that inherits the main one and sets site_url.
+
+    Relative paths resolve against the config file that sets them, and this
+    file lives in _build/, so paths from mkdocs.yml are restated as absolute.
+    """
     path = ROOT / "_build" / "mkdocs.site-url.yml"
     path.write_text(
         "INHERIT: %s\n"
         "docs_dir: %s\n"
         "site_dir: %s\n"
-        "site_url: %s\n" % (MKDOCS_CONFIG, STAGE, OUTPUT, site_url),
+        "hooks:\n"
+        "  - %s\n"
+        "site_url: %s\n" % (MKDOCS_CONFIG, STAGE, OUTPUT, HOOKS, site_url),
         encoding="utf-8",
     )
     return path
