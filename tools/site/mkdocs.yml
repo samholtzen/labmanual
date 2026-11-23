@@ -2,6 +2,8 @@
 # Paths are relative to this file. Run via tools/site/build.py, which stages
 # the Markdown sources into _build/docs first.
 site_name: The Lab Manual
+# Used as the meta description, which search results often show as the snippet.
+site_description: A living, community-editable guide to help bioengineers and new scientists get started in the wet lab.
 docs_dir: ../../_build/docs
 site_dir: ../../_site
 use_directory_urls: true
