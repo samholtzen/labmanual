@@ -26,7 +26,7 @@ Then open <http://localhost:8000>.
 python3 tools/site/build.py --site-url https://example.org/labmanual/
 ```
 
-`--site-url` is optional. Without it, the output works at any URL or subfolder and pages load normally. With it, the site also gets instant page-to-page navigation (the menu and header stay in place) and a sitemap using that URL. Use it for the build you actually upload.
+`--site-url` is optional. Without it, the output works at any URL or subfolder and pages load normally. With it, the site also gets instant page-to-page navigation (the menu and header stay in place) and a sitemap using that URL, and a `robots.txt` that points to the sitemap. Use it for the build you actually upload.
 
 Upload the contents of `_site/` to your host. No server-side code or rewrite rules are needed.
 

@@ -85,6 +85,19 @@ def write_site_url_config(site_url):
     return path
 
 
+def write_robots_txt(site_url):
+    """Write robots.txt into the stage; MkDocs copies it to the site root.
+
+    Everything is crawlable. With a site URL, also point crawlers at the
+    sitemap (robots.txt needs an absolute URL for that, so it is skipped
+    for builds without one, which may be served from any address).
+    """
+    lines = ["User-agent: *", "Allow: /"]
+    if site_url:
+        lines += ["", "Sitemap: %ssitemap.xml" % site_url]
+    (STAGE / "robots.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def venv_python(venv):
     sub = "Scripts" if os.name == "nt" else "bin"
     return venv / sub / ("python.exe" if os.name == "nt" else "python")
@@ -221,6 +234,7 @@ def main():
     site_url = normalize_site_url(args.site_url) if args.site_url else None
     py = ensure_venv(args.venv)
     stage_sources()
+    write_robots_txt(site_url)
     config = write_site_url_config(site_url) if site_url else MKDOCS_CONFIG
 
     print("Building site" + (" for %s" % site_url if site_url else ""))
